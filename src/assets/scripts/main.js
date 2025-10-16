@@ -88,6 +88,7 @@ select.addEventListener('keydown', e => {
   }
 });
 
+// mobile menu
 const menuShowBtn = document.querySelector("svg#menu-show")
   , mobileMenu = document.getElementById("mobile_menu");
 menuShowBtn?.addEventListener("click", (()=>{
@@ -105,6 +106,7 @@ mobileMenuItems.forEach((function(e) {
     e.addEventListener("click", (function() {
         document.body.style.overflowY = "auto",
         document.getElementById("mobile_menu").classList.remove("show")
+        document.getElementById("menu-show").classList.remove("active")
     }
     ))
 }
