@@ -1,9 +1,15 @@
 # test-task-16-10-2025
 
-## Installation
+## Installation Gulp
 
 ```bash
 npm i gulp -g
+```
+
+## Installation dependencies in the project folder
+
+```bash
+npm i
 ```
 
 ## Run the build in dev mode and also build in dist
