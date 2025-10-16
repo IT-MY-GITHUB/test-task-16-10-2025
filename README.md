@@ -19,3 +19,5 @@ gulp build
 ```
 
 - The finished project will be located in the dist folder.
+
+- GitHub Page: https://it-my-github.github.io/test-task-16-10-2025/
