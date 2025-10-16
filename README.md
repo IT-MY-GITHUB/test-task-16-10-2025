@@ -11,3 +11,5 @@ npm i gulp -g
 ```bash
 gulp build
 ```
+
+- The finished project will be located in the dist folder.
