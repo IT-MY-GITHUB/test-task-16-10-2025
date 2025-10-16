@@ -1,0 +1,65 @@
+.greet {
+  padding-top: 203px;
+  padding-bottom: 203px;
+  background-image: url('../images/greet-bg.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $black;
+
+  &__title {
+    font-size: 4.8rem;
+    font-family: 'Lato Bold', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 768px) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  &__text {
+    font-weight: 700;
+    font-family: 'Lato Bold', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  &__text,
+  &__list {
+    font-size: 2rem;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    @media screen and (max-width: 400px) {
+      gap: 16px;
+    }
+  }
+}
