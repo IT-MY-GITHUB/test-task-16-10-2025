@@ -100,6 +100,7 @@ menuShowBtn?.addEventListener("click", (()=>{
 }
 ));
 
+// mobile menu close
 const mobileMenuItems = document.querySelectorAll(".mobile-menu__link")
 
 mobileMenuItems.forEach((function(e) {
