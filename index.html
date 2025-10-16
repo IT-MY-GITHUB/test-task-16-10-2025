@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Useful meta tags -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <!-- <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"> -->
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <!-- end Useful meta tags -->
+  
+  <!-- additional SEO meta -->
+  <meta name="description" content="you are desc">
+  <meta name="keywords" content="you are key words">
+  <meta name="author" content="Author">
+  <meta name="image" content="assets/images/logo.png">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:site_name" content="text == you are title">
+  <meta property="og:title" content="text == you are title">
+  <meta property="og:description" content="you are description">
+  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <!-- end additional SEO meta -->
+  
+  <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- add canonical links for any pages -->
+  <!-- example -->
+  <!-- <link rel="canonical" href="https://example.com">
+  <link rel="canonical" href="https://example.com/products">
+  <link rel="canonical" href="https://example.com/tutorials/js/functions"> -->
+  <!-- end example -->
+  <link rel="canonical" href="https://example.com">
+  
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon-180x180.png">
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192x192.png">
+  
+  <link rel="manifest" href="assets/images/manifest.json">
+  
+  <meta name="apple-mobile-web-app-title" content="text == you title">
+  <meta name="mobile-web-app-capable" content="yes">
+  <!--end favicon-->
+  
+  <!-- default styles -->
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <!-- end default styles -->
+  
+  <title>Test Task</title></head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+  
+        <div class="header__logo">
+          <a href="/" class="header__logo-text" aria-label="LoremIpsum" title="На главную">LoremIpsum.<span class="text-accent-additional">Net</span></a>
+        </div>
+  
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#">Бизнес</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#order">Оформить заказ</a></li>
+          </ul>
+        </nav>
+  
+        <div class="burger-btn">
+          <div class="burger-btn__content">
+  
+            <svg id="menu-show" class="ham" viewBox="0 0 100 100" width="60" height="60" onclick="this.classList.toggle('active')">
+              <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40">
+              </path>
+              <path class="line middle" d="m 30,50 h 40"></path>
+              <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40">
+              </path>
+            </svg>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    
+    <section class="greet">
+      <div class="container">
+        <div class="greet__wrapper">
+    
+          <h1 class="greet__title" aria-label="Lorem ipsum dolor sit amet consectetur adipiscing"><span class="text-accent">Lorem ipsum</span>
+            dolor sit <br> amet consectetur <span class="text-accent">adipiscing</span></h1>
+    
+          <div class="text-block">
+            <p class="greet__text">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+            <ul class="greet__list">
+              <li class="greet__list-item">- Totam rem aperiam eaque ipsa</li>
+              <li class="greet__list-item">- Sit voluptatem accusantium doloremque laudantium</li>
+              <li class="greet__list-item">- Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+          </div>
+    
+          <div class="greet__buttons">
+            <a href="#order" class="btn btn--accent" aria-label="Заказать" title="Заказать">Заказать</a>
+            <a href="#" class="btn btn--white" aria-label="Подробнее" title="Подробнее">Подробнее</a>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section class="order" id="order">
+      <div class="container">
+        <h2 class="order__title" aria-label="Оформление Заказа">Оформление <span class="text-accent">Заказа</span></h2>
+        <p class="order__subtitle" aria-label="Перед заполнением формы ознакомьтесь с нашей схемой работы">Перед заполнением
+          формы ознакомьтесь с нашей схемой работы!</p>
+    
+        <div class="steps">
+    
+          <div class="steps__item">
+            <div class="steps__item-image">
+              <img loading="lazy" width="55" height="55" src="./assets/images/svg/search.svg" alt="Поиск" title="Поиск" aria-label="Поиск">
+    
+              <div class="steps__separator">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <p class="steps__item-text">Lorem ipsum dolor
+              sit <br>amet</p>
+          </div>
+    
+          <div class="steps__item">
+            <div class="steps__item-image">
+              <img loading="lazy" width="55" height="55" src="./assets/images/svg/percent.svg" aria-label="Процент" title="Процент" alt="Процент">
+    
+              <div class="steps__separator">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <p class="steps__item-text">Сonsecteturadipiscing elit</p>
+          </div>
+    
+          <div class="steps__item">
+            <div class="steps__item-image">
+              <img loading="lazy" width="55" height="55" src="./assets/images/svg/file.svg" aria-label="Файл" title="Файл" alt="Файл">
+              <div class="steps__separator">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <p class="steps__item-text">Sed do eiusmod tempor</p>
+          </div>
+    
+          <div class="steps__item">
+            <div class="steps__item-image">
+              <img loading="lazy" width="55" height="55" src="./assets/images/svg/message.svg" aria-label="Сообщение" title="Сообщение" alt="Сообщение">
+              <div class="steps__separator">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+    
+            <p class="steps__item-text">Esse cillum dolore
+              eu <br>fugiat</p>
+          </div>
+          <div class="steps__item">
+            <div class="steps__item-image">
+              <img loading="lazy" width="55" height="55" src="./assets/images/svg/money.svg" aria-label="Деньги" title="Деньги" alt="Деньги">
+            </div>
+            <p class="steps__item-text">Excepteur sint occaecat <br>cupidatat non proident</p>
+          </div>
+    
+        </div>
+    
+        <form action="#" class="form">
+          <div class="form__item grid-a">
+            <div class="select" id="select" tabindex="0" data-name="system_type">
+              <input type="hidden" name="system_type" value="">
+              <div class="select__trigger">
+                <span class="select__trigger-text">Выберите тип системы</span>
+                <span class="arrow"></span>
+              </div>
+              <div class="select__dropdown">
+                <div class="select__option">Sed ut perspiciatis
+                </div>
+                <div class="select__option">Nemo enim ipsam
+                </div>
+                <div class="select__option">Et harum quidem</div>
+                <div class="select__option">
+                  Temporibus autem
+                </div>
+                <div class="select__option">
+                  Itaque earum rerum
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="form__item grid-b">
+            <input class="form__input input" type="email" name="email" aria-label="Ваш e-mail" placeholder="Ваш e-mail">
+          </div>
+    
+          <div class="form__item grid-c">
+            <input class="form__input input" type="text" name="name" aria-label="Ваше имя" placeholder="Ваше имя">
+          </div>
+    
+          <div class="form__item grid-d">
+            <div class="form__item-text">
+              <p>Sed ut perspiciatis, unde omnis iste natus</p>
+              <span id="range-percent-value"></span>
+            </div>
+    
+            <input class="input-range" type="range" name="range" id="range" min="0" max="100" value="75">
+          </div>
+    
+          <div class="form__item grid-e">
+            <label for="file" class="input input-file" aria-label="Выберите файл" title="Выберите файл">
+              <img width="17" height="20" src="./assets/images/svg/input-file.svg" alt="Файл" title="Файл" aria-label="Файл">
+              <p>Прикрепить файл</p>
+            </label>
+            <input class="visually-hidden" type="file" name="file" id="file">
+          </div>
+    
+          <div class="form__item grid-f">
+            <button class="btn btn--accent btn-lg" type="submit" aria-label="Отправить">Отправить</button>
+          </div>
+    
+        </form>
+      </div>
+    </section>
+    
+    <div class="mobile-menu" id="mobile_menu">
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">Бизнес</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">О нас</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">Цены</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#order" class="mobile-menu__link">Оформить заказ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__policy">
+          © 2018 «LOREMIPSUM.NET» Все права защищены.
+        </div>
+  
+        <div class="hr-vertical"></div>
+  
+        <div class="footer__payment">
+          <div class="footer__payment-item">
+            <img loading="lazy" width="20" height="20" src="./assets/images/svg/qiwi.svg" alt="QIWI" title="QIWI" aria-label="QIWI">
+            <p>Qiwi wallet</p>
+          </div>
+          <div class="footer__payment-item">
+            <img loading="lazy" width="20" height="20" src="./assets/images/svg/ym.svg" alt="Yandex Money" title="Yandex Money" aria-label="Yandex Money">
+            <p>Yandex Money</p>
+          </div>
+          <div class="footer__payment-item">
+            <img loading="lazy" width="20" height="20" src="./assets/images/svg/wm.svg" alt="Web Money" title="Web Money" aria-label="Web Money">
+            <p>Web Money</p>
+          </div>
+        </div>
+  
+        <div class="hr-vertical"></div>
+  
+        <div class="footer__contacts">
+          <div class="footer__contacts-item">
+            <img loading="lazy" width="20" height="20" src="./assets/images/svg/mail.svg" alt="Почта" title="Почта" aria-label="Почта">
+            <a target="_blank" href="mailto:info@ipsum228.com">info@ipsum228.com</a>
+          </div>
+          <div class="footer__contacts-item">
+            <img loading="lazy" width="20" height="20" src="./assets/images/svg/vk.svg" alt="Вконтакте" title="Вконтакте" aria-label="Вконтакте">
+            <a href="https://vk.ru" target="_blank">Мы вконтакте</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.min.js"></script>
+</body>
+
+</html>
